@@ -21,6 +21,6 @@ https://learn.sparkfun.com/tutorials/esp8266-thing-hookup-guide?_ga=1.192693098.
 
 Future improvements I would like too add.
 
-1) Additional operation mode that allows the user to set a 'sunrise' wake-up. The lamp will switch on at a certain time at zero brightnrss and then gradually get brighter and brighter over a user definable period of time. The color setting should also be user definable. Perhaps implementing an internet time look up to update an on-board clock.
+1) Additional operation mode that allows the user to set a 'sunrise' wake-up. The lamp will switch on at a certain time at zero brightness and then gradually get brighter and brighter over a user definable period of time. The color setting should also be user definable. Perhaps implementing an internet time look up to update an on-board clock.
 
 2) Test all this on a standard ESP8266 (around $5) rather than using the Sparkfun ESP8266 Thing.
