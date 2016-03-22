@@ -17,8 +17,8 @@
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
 const char *ssid = "<Your SSID here>";
-const char *password = "<Your Wi-Fi Password here>";     // Type 192.168.0.11 into your browser address bar to fing your ESP8266
-MDNSResponder mdns;
+const char *password = "<Your Wi-Fi Password here>";     // The ESP8266 will stream it's IP address to the serial console when it connects. Type that IP address into your browser to connect
+MDNSResponder mdns;                                      
 
 ESP8266WebServer server ( 80 );
 
@@ -238,9 +238,9 @@ void handle_mode2(){                                  //colour fade mode
   
   for(j=0; j<256; j++) {
     loop();
-    for(i=0; i<strip.numPixels(); i++) {
+    for(i=0; i<NUMPIXELS; i++) {
       loop();
-      strip.setPixelColor(i, Wheel((i+j) & 255));
+      strip.setPixelColor(i, Wheel((j) & 255));
       if(mode_flag!=2){return;}                      //the mode has been changed - get outta here!
     }
     strip.show();
