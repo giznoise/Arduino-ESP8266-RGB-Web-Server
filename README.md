@@ -29,6 +29,6 @@ Future improvements I would like too add.
 
 4) Add more modes - Candle (Neo Candle), Strobe, Disco, Breathing
 
-5) Start the RGB Lamp in AP Mode first so that a user can connect directly and determine the I.P.Address it occupies on the local network. Maybe give 20 seconds for an incoming AP connection, then switch to server mode / normal operation. 
+5) Start the RGB Lamp in AP Mode first so that a user can connect directly and determine the I.P. Address it occupies on the local network. Maybe give 20 seconds for an incoming AP connection, then switch to server mode / normal operation. 
 
 The only way to determine the IP address of the lamp at the moment is to either connect to the serial port and monitor the output on start-up or log into your router. You can either tell the router to allocate an IP address based on the MAC address of your ESP8266 or just look to see what is connected and on what IP in your router logs.
