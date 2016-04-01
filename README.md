@@ -4,6 +4,13 @@ A Wi-Fi web server for the ESP8266 platform driving a WS2812B addressable RGB Le
 Description:
 An Arduino sketch for running a Wi-Fi web server on the ESP8266-12F. Designed to drive the WS2812B addressable RGB Led strips using the Adafruit Neopixel Arduino library.
 
+Construction Notes:
+The software has been written to give the best effects with a 60 lED WS2812 RGB LED strip but will work with any. The number of LED's in your strip can be set in code.
+
+To get the best effects (especially in candle mode) wrap the strip around a tube approx. 1.5 inches dia. to form a cylinder of light. Place this in an opaque container to obfuscate the individual LED's to give an overall 'glow'.
+
+This ensurea that the rainbow mode is effective and also the candle mode appears to be a small tea light or candle at the bottom of the container.
+
 Implements the following:
 
 Adafruit Neopixel Library:
@@ -23,11 +30,11 @@ Future improvements I would like too add.
 
 1) Additional operation mode that allows the user to set a 'sunrise' wake-up alarm. The lamp will switch on at a certain time at zero brightness and then gradually get brighter and brighter over a user definable period of time. The color setting should also be user definable. Perhaps implementing an internet time look up to update an on-board clock.
 
-2) Test all this on a standard ESP8266-12F (around $5) rather than using the 'Sparkfun ESP8266 Thing'. - Done, it works Ok.
+2) Test all this on a standard ESP8266-12F (around $5) rather than using the 'Sparkfun ESP8266 Thing'. - UPDATE: Done, it works Ok.
 
 3) Allow the user to set the transition time (via the html menu system), between colors for the color fade mode and rainbow mode.
 
-4) Add more modes - Candle (Neo Candle), Strobe, Disco, Breathing
+4) Add more modes - Candle (Neo Candle), Strobe, Disco, Breathing - UPDATE: Candle mode completed. Brightness and Colour set mode do not function when in candle mode because colour and brightness level are fundamental parts of the candle effect.
 
 5) Start the RGB Lamp in AP Mode first so that a user can connect directly and determine the I.P. Address it occupies on the local network. Maybe give 20 seconds for an incoming AP connection, then switch to server mode / normal operation. 
 
