@@ -1,0 +1,7 @@
+Circuit Connstruction Notes
+============================
+
+// The LED strip that was used for this development was a 60 LED RGB WS2812
+// The strip was wrapped around a 1.5 inch dia. tube from top to bottom. This gave good rainbow effects in rainbow mode.
+// The whole thing was then placed inside an opaque glass jar. This obfuscates the individual LED's to give a uniform light.
+// For candle mode, the bottom 30 LED's were used to illuminated. This gives the impression of a small candle or tea light.
