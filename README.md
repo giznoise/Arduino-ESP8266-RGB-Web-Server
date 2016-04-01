@@ -5,7 +5,7 @@ Description:
 An Arduino sketch for running a Wi-Fi web server on the ESP8266-12F. Designed to drive the WS2812B addressable RGB Led strips using the Adafruit Neopixel Arduino library.
 
 Construction Notes:
-The software has been written to give the best effects with a 60 lED WS2812 RGB LED strip but will work with any. The number of LED's in your strip can be set in code.
+The software has been written to give the best effects with a 60 LED WS2812 RGB LED strip but will work with any. The number of LED's in your strip can be set in code.
 
 To get the best effects (especially in candle mode) wrap the strip around a tube approx. 1.5 inches dia. to form a cylinder of light. Place this in an opaque container to obfuscate the individual LED's to give an overall 'glow'.
 
