@@ -35,8 +35,8 @@ byte index_start;
 byte index_end;
 // END OF CANDLE MODE RELATED STUFF ////////////////////////////////////////////////////
 
-const char *ssid = "SKY5BD72";
-const char *password = "CFTRWQBD";
+const char *ssid = "<Put your own SSID here";
+const char *password = "<Put your Password here>";
 MDNSResponder mdns;
 
 ESP8266WebServer server ( 80 );
