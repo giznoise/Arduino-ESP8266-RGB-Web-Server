@@ -9,7 +9,7 @@ The software has been written to give the best effects with a 60 LED WS2812 RGB 
 
 To get the best effects (especially in candle mode) wrap the strip around a tube approx. 1.5 inches dia. to form a cylinder of light. Place this in an opaque container to obfuscate the individual LED's to give an overall 'glow'.
 
-This ensurea that the rainbow mode is effective and also the candle mode appears to be a small tea light or candle at the bottom of the container.
+This ensures that the rainbow mode is effective and also the candle mode appears to be a small tea light or candle at the bottom of the container.
 
 Implements the following:
 
