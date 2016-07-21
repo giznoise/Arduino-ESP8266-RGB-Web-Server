@@ -34,8 +34,10 @@ Future improvements I would like too add.
 
 3) Allow the user to set the transition time (via the html menu system), between colors for the color fade mode and rainbow mode.
 
-4) Add more modes - Candle (Neo Candle), Strobe, Disco, Breathing - UPDATE: Candle mode completed. Brightness and Colour set mode do not function when in candle mode because colour and brightness level are fundamental parts of the candle effect.
+4) Update 21/07/2016 - Candle mode added. Experiment with '#define CANDLEPIXELS XX' (default 30) to get the best effect for your set up. Use more or less pixels to suit how bright you want the candle to be. Tweak the code if you want to try and make a better candle effect. Brightness and Colour set mode do not function when in candle mode because colour and brightness level are fundamental parts of the candle effect.
 
-5) Start the RGB Lamp in AP Mode first so that a user can connect directly and determine the I.P. Address it occupies on the local network. Maybe give 20 seconds for an incoming AP connection, then switch to server mode / normal operation. 
+5) Add more modes - Strobe, Disco, Breathing 
+
+6) Start the RGB Lamp in AP Mode first so that a user can connect directly and determine the I.P. Address it occupies on the local network. Maybe give 20 seconds for an incoming AP connection, then switch to server mode / normal operation. 
 
 The only way to determine the IP address of the lamp at the moment is to either connect to the serial port and monitor the output on start-up or log into your router. You can either tell the router to allocate an IP address based on the MAC address of your ESP8266 or just look to see what is connected and on what IP in your router logs.
